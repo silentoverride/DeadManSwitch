@@ -12,10 +12,10 @@ record = "ping.silent.bond"
 record_type = "TXT"
 
 # A "normal" value
-expected_value = "N9cOxwskm3ZM33jCbDyEilZpCd5c8tPIhVtdT3WlZxK7dGpo"
+expected_value = ""
 
 # A "execute immediately" value
-trigger_value = "FCNfi1bcOQDlV8OeMagLGBE9m0Uf890rPKeb28oPYbDOsM0C"
+trigger_value = ""
 
 # Hooks
 execute_scripts = [
@@ -35,5 +35,5 @@ check_interval = 60
 # quit main program after one successful trigger
 exit_after_trigger = true
 
-trigger_on_uncertain = false
-max_uncertain_tolerance = 3
+trigger_on_uncertain = true
+max_uncertain_tolerance = 10

@@ -1,6 +1,6 @@
 #!/bin/bash
 set -u
 
-fstrim -a
+fstrim -a -n
 
 exit 0
